@@ -1,0 +1,20 @@
+{
+  "name": "vue-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-sakura": "^1.2.1",
+    "vuepress-theme-gungnir": "^2.0.0-alpha.26",
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}
