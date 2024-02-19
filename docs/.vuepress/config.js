@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'XXX的博客',
+  title: "Kathy's blog",
   base: '/',
   description: 'full stack engineer',
   locales: {
@@ -7,6 +7,7 @@ module.exports = {
       lang: "en",
     },
   },
+  theme: "reco",
   themeConfig: {
     author: "Huitao Xu",
     logo: "/avatar.jpeg",
@@ -15,12 +16,14 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: 'Shark Xu 的博客',
+        text: 'UNSW 8543',
         items: [
-          { text: '掘金', link: 'https://juejin.cn/user/233526039432445' },
-          { text: 'Github', link: 'https://github.com/Xusssyyy' },
+          { text: '9044', link: 'https://juejin.cn/user/233526039432445' },
+          { text: '9102', link: 'https://github.com/Xusssyyy' },
+          { text: '9311', link: 'https://github.com/Xusssyyy' },
         ],
       },
+      { text: 'Project', link: '/blogs/1.md' },
     ],
     // 博客配置
     blogConfig: {
@@ -33,23 +36,23 @@ module.exports = {
         text: "Tag", // 默认文案 “标签”
       },
     },
-    sidebar: [
-      {
-        title: '欢迎学习',
-        path: '/',
-        collapsable: false, // 是否折叠
-        children: [{ title: '博客简介', path: '/' }],
-      },
-      {
-        title: '基础篇',
-        path: '/blogs/1',
-        collapsable: true,
-        children: [
-          { title: '第一篇', path: '/blogs/1' },
-          { title: '第二篇', path: '/blogs/2' },
-        ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     title: '欢迎学习',
+    //     path: '/',
+    //     collapsable: false, // 是否折叠
+    //     children: [{ title: '博客简介', path: '/' }],
+    //   },
+    //   {
+    //     title: '基础篇',
+    //     path: '/blogs/1',
+    //     collapsable: true,
+    //     children: [
+    //       { title: '第一篇', path: '/blogs/1' },
+    //       { title: '第二篇', path: '/blogs/2' },
+    //     ],
+    //   },
+    // ],
   },
   plugins: [
     [
